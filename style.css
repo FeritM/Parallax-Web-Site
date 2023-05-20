@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.section {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section1 {
+  background-image: url(img/kedi1.jpg);
+}
+#section2 {
+  background-image: url(img/kedi2.jpg);
+}
+#section3 {
+  background-image: url(img/kedi3.jpg);
+}
+#section4 {
+  background-image: url(img/kedi4.jpg);
+}
+h1 {
+  color: rgb(69, 172, 212);
+  font-size: 4rem;
+}
